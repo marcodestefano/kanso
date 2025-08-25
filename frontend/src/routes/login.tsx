@@ -13,7 +13,7 @@ import { Field } from "@/components/ui/field"
 import { InputGroup } from "@/components/ui/input-group"
 import { PasswordInput } from "@/components/ui/password-input"
 import useAuth, { isLoggedIn } from "@/hooks/useAuth"
-import Logo from "/assets/images/fastapi-logo.svg"
+import Logo from "/assets/images/kanso-logo.svg"
 import { emailPattern, passwordRules } from "../utils"
 
 export const Route = createFileRoute("/login")({
@@ -68,7 +68,7 @@ function Login() {
       >
         <Image
           src={Logo}
-          alt="FastAPI logo"
+          alt="Kanso logo"
           height="auto"
           maxW="2xs"
           alignSelf="center"
